@@ -1,4 +1,4 @@
-# Ansible
+# RabbitMQ Cluster
 
 Installing packages and configuring the cluster
 
