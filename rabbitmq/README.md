@@ -9,5 +9,5 @@ ansible-playbook -i rabbitmq-nodes -u ${var.ansible_user} --private-key ${var.pr
 Creating users, vhosts and policies
 
 ``` 
-ansible-playbook -i rabbitmq-nodes -u ${var.ansible_user} --private-key ${var.private_key} playbooks/rabbitmq-users.yml
+ansible-playbook -i rabbitmq-nodes -u ${var.ansible_user} --private-key ${var.private_key} rabbitmq-users.yml
 ```
